@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" http-equiv="Page-Enter" content="revealTrans(Duration=3.0,Transition=16)" />
+
+		<title></title>
+		<style>
+			body {
+				background: url(images/01.jpg) no-repeat center center fixed;
+				/*兼容浏览器版本*/
+                -webkit-background-size: cover;
+				-o-background-size: cover;                
+				background-size: cover;
+			}
+		</style>
+	</head>
+ 
+	<body>
+		<style type="text/css">
+			.div1{
+				position:absolute;
+				height:60px;
+				width:500px;
+				bottom:0;
+				left:50%;
+				margin-left: -250px;
+				float：left;
+			
+				}
+
+			.div2{
+				position:relative;
+				height:45px;
+				width:45px;
+				bottom:30px;
+				display: inline-block;
+				
+			}
+
+			.div2 div{		
+				display:none;/*默认隐藏*/
+			}
+			.div2:hover div{
+				bottom:0px;
+				transition: all linear 0.3s;		  
+				display:initial;/*当鼠标hover时展示*/
+			}
+
+
+			img{
+				position:absolute;
+				height:45px; 
+				width:45px;			
+				background-color: #FFE6D9;
+				border-radius:100%;
+			}
+		  	img:hover{
+		  		position: absolute; 
+				background-color: #FFFFFF;	
+				border-radius:100%;
+				transition: all linear 0.5s;		  
+    		    transform: translate(0,-35px); 
+
+			}
+			a:link {color: black}
+			a:visited {color: black}
+			a:hover {color: black}
+			a:active {color: black}
+			a {text-decoration: none}
+
+
+		</style>
+
+		<div class = "div1">
+			<div class="div2">
+				<a href="index.html" data-transition="slideup ">
+		        <img src="images/icon1.png" />
+		        <div> <font face="楷体" size="2" >首<br>页</font> </div>
+		    	</a>
+		    	
+	    	</div>
+	    	<div class="div2">
+	        	<img src="images/icon2.png" />
+	        	<div> <font face="楷体" size="2">首<br>页</font> </div>
+	        </div>
+	    	<div class="div2">
+	    		<a href="index.html">
+	        	<img src="images/icon3.png" />
+	        	</a>
+	        	<div> <font face="楷体" size="2">首<br>页</font> </div>
+	        </div>
+	    	<div class="div2">
+	    		<a href="index.html">
+	       		<img src="images/icon4.png" />
+	       		</a>
+	       		<div> <font face="楷体" size="2">首<br>页</font> </div>
+	        </div>
+	    	<div class="div2">
+	    		<a href="index.html">
+	       		<img src="images/icon5.png" />
+	       		</a>
+	       		<div> <font face="楷体" size="2">首<br>页</font> </div>
+	        </div>
+	    	<div class="div2">
+	    		<a href="index.html">
+	        	<img src="images/icon6.png" />
+	        	</a>
+	        	<div> <font face="楷体" size="2">首<br>页</font> </div>
+	        </div>
+	    	<div class="div2">
+	    		<a href="index.html">
+	        	<img src="images/icon7.png" />
+	        	</a>
+	        	<div> <font face="楷体" size="2">首<br>页</font> </div>
+	        </div>
+	    	<div class="div2">
+	    		<a href="index.html">
+	        	<img src="images/icon8.png" />
+	        	</a>
+	        	<div> <font face="楷体" size="2">首<br>页</font> </div>
+	        </div>
+	   
+		</div>
+		
+
+ 
+	</body>
+ 
+</html>
